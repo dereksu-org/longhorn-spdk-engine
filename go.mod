@@ -2,14 +2,14 @@ module github.com/longhorn/longhorn-spdk-engine
 
 go 1.23.0
 
-toolchain go1.23.4
+toolchain go1.23.6
 
 require (
 	github.com/0xPolygon/polygon-edge v1.3.3
 	github.com/google/uuid v1.6.0
 	github.com/jinzhu/copier v0.4.0
-	github.com/longhorn/backupstore v0.0.0-20250115162037-d046737d09dc
-	github.com/longhorn/go-common-libs v0.0.0-20250107022351-ec79818ce8db
+	github.com/longhorn/backupstore v0.0.0-20250204055542-0f659475ac46
+	github.com/longhorn/go-common-libs v0.0.0-20250204050409-8ebd4432fd70
 	github.com/longhorn/go-spdk-helper v0.0.0-20250116051812-eabe34a4219e
 	github.com/longhorn/types v0.0.0-20241225162202-00d3a5fd7502
 	github.com/pkg/errors v0.9.1
@@ -17,7 +17,7 @@ require (
 	go.uber.org/multierr v1.11.0
 	golang.org/x/net v0.34.0
 	google.golang.org/grpc v1.69.4
-	google.golang.org/protobuf v1.36.3
+	google.golang.org/protobuf v1.36.5
 	gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c
 	k8s.io/apimachinery v0.32.1
 )
@@ -55,7 +55,7 @@ require (
 	github.com/shirou/gopsutil/v3 v3.24.5 // indirect
 	github.com/slok/goresilience v0.2.0 // indirect
 	github.com/yusufpapurcu/wmi v1.2.4 // indirect
-	golang.org/x/exp v0.0.0-20250106191152-7588d65b2ba8 // indirect
+	golang.org/x/exp v0.0.0-20250128182459-e0ece0dbea4c // indirect
 	golang.org/x/sys v0.29.0 // indirect
 	golang.org/x/text v0.21.0 // indirect; sindirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20241015192408-796eee8c2d53 // indirect
