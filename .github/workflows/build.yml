@@ -7,7 +7,7 @@ on:
 jobs:
   build-amd64:
     name: Build AMD64 binaries
-    runs-on: longhorn-infra-amd64-runners
+    runs-on: oracle-dereksu-amd64-runners
     steps:
     - name: Checkout code
       uses: actions/checkout@v4
