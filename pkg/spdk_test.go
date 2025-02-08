@@ -458,7 +458,7 @@ func (s *TestSuite) TestSPDKMultipleThread(c *C) {
 	}
 }
 
-func (s *TestSuite) xxTestSPDKMultipleThreadSnapshotOpsAndRebuilding(c *C) {
+func (s *TestSuite) TestSPDKMultipleThreadSnapshotOpsAndRebuilding(c *C) {
 	fmt.Println("Testing SPDK snapshot operations with multiple threads")
 	diskDriverName := "aio"
 
@@ -1220,7 +1220,7 @@ func (s *TestSuite) xxTestSPDKMultipleThreadSnapshotOpsAndRebuilding(c *C) {
 	}
 }
 
-func (s *TestSuite) xxTestSPDKMultipleThreadFastRebuilding(c *C) {
+func (s *TestSuite) TestSPDKMultipleThreadFastRebuilding(c *C) {
 	fmt.Println("Testing SPDK fast rebuilding with multiple threads")
 	diskDriverName := "aio"
 
@@ -1802,7 +1802,7 @@ func WaitForReplicaRebuildingCompleteTimeout(c *C, spdkCli *client.SPDKClient, e
 	c.Assert(complete, Equals, true)
 }
 
-func (s *TestSuite) xxTestSPDKEngineOnlyWithTarget(c *C) {
+func (s *TestSuite) TestSPDKEngineOnlyWithTarget(c *C) {
 	fmt.Println("Testing SPDK basic operations with engine only with target")
 
 	diskDriverName := "aio"
