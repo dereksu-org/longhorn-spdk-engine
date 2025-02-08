@@ -20,6 +20,9 @@ mount --rbind /host/dev /dev
 mount --rbind /host/sys /sys
 trap "umount /dev && umount /sys" EXIT
 
+mkdir -p /dev/hugepages
+mount -t hugetlbfs nodev /dev/hugepages
+
 # Do cleanup first
 losetup -D
 trap "losetup -D" EXIT
